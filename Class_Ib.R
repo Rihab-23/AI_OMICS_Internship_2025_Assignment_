@@ -23,6 +23,11 @@ View(data)
 str(data)
 summary(data)
 
+#Inspecting rows and columns#
+nrow(data)
+ncol(data)
+colnames(data)
+
 #Identifying variables with incorrect or inconsistent data types#
 sapply(data, class)
 
